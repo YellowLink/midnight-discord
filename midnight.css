@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
 	--font: 'lexend';
-	--font-size: 12px;
 
 	/* top left corner text */
 	--corner-text: 'Midnight';
