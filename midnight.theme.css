@@ -48,18 +48,18 @@
 
 	/* color of status indicators and window controls */
 	--online-indicator: #23a55a; /* change to #23a55a for default green */
-	--dnd-indicator: hsl(327, 89%, 43%); /* change to #f13f43 for default red */
+	--dnd-indicator: hsl(335, 89%, 43%); /* change to #f13f43 for default red */
 	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
 	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
 
 	/* accent colors */
-	--accent-1: hsl(207, 100%, 59%); /* links */
-	--accent-2: hsl(327, 89%, 43%); /* general unread/mention elements */
-	--accent-3: hsl(239, 63%, 43%); /* accent buttons */
-	--accent-4: hsl(239, 86%, 66%); /* accent buttons when hovered */
-	--accent-5: hsl(239, 90%, 35%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+	--accent-1: hsl(210, 100%, 65%); /* links */
+	--accent-2: hsl(327, 75%, 56%); /* general unread/mention elements */
+	--accent-3: hsl(239, 63%, 56%); /* accent buttons */
+	--accent-4: hsl(239, 86%, 70%); /* accent buttons when hovered */
+	--accent-5: hsl(239, 70%, 50%); /* accent buttons when clicked */
+	--mention: hsla(190, 80%, 62%, 0.1); /* mentions & mention messages */
+	--mention-hover: hsla(190, 80%, 62%, 0.15); /* mentions & mention messages when hovered */
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
@@ -72,14 +72,14 @@
 	/* background and dark colors */
 	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
-	--bg-3: hsl(220, 45%, 7%); /* spacing, secondary elements */
-	--bg-4: hsl(220, 45%, 10%); /* main background color */
-	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
-	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(295, 39%, 25%, 0.1); /* messages when hovered */
+	--bg-3: hsl(220, 55%, 8%); /* spacing, secondary elements */
+	--bg-4: hsl(219, 85%, 10%); /* main background color */
+	--hover: hsla(230, 25%, 50%, 0.15); /* channels and buttons when hovered */
+	--active: hsla(220, 25%, 50%, 0.3); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(295, 39%, 35%, 0.2); /* messages when hovered */
 
 	/* amount of spacing and padding */
-	--spacing: 12px;
+	--spacing: 13px;
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
